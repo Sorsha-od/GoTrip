@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-apperance: none;
+    -moz-appearance: none;
+}
+body{
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    min-width: 1440px;
+    background-color: #E5E5E5;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+}
+nav {
+    margin-right: 236px;
+}
+h1, h2{
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 82.5px;
+}
+h2 {
+    color: #000;
+}
+h3 {
+    color: #0F1F1C;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 67.5px;
+    display: block;
+   
+}
+button {
+    background-color: #FF584E;
+    color: #FFF;
+}
+
+
+.header {
+    background-color: #1F5E37;
+    min-width: 1440px;
+    flex: auto;
+    border-radius: 50px 50px 0 0;
+    padding-top: 54px;
+    display: flex;
+    justify-content: center;
+   
+}
+.header_container {
+    max-width: 1440px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-right: 237px;
+   
+}
+.nav_bar {
+    /*margin-top: 54px;*/
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.logo a{
+    color: #FFF;
+}
+
+.navigation li{
+    margin-right: 80px;
+}
+li:nth-last-child(1){
+    margin-right: 0px;
+}
+
+.button {
+    border-radius: 25px;
+}
+li .button {
+    width: 128px;
+    height: 49px;
+    background-color: inherit;
+    border: none;
+    margin-top:-25px;
+}
+li .button:hover {
+    background-color: #FF584E;
+}
+
+.main_of_header {
+    display: flex;
+
+}
+.blog_photo_container {
+width: 58%;
+
+}
+
+.blog_photo {
+    padding-top: 43px;
+    }
+
+.blog {
+    background-color: #1F5E37;
+    display: flex;
+    height: 872px;
+    display: flex;
+
+}
+.blog_text_content {
+    margin-left: 100px;
+    margin-top: 94px;
+    width: 42%;
+
+}
+.hashtag { /* Як ти вважаєш, такий хештег чим краще виконувати: кнопкою чи div'ом?*/
+    background: rgba(255, 255, 255, 0.25);
+    width: 227px;
+    height: 50px;
+    border-radius: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+.blog_title {
+    margin-top: 7px;
+    color: #FFF;
+    width: 603px;
+    height: 249px;
+}
+
+.blog_content {
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 37.5px;
+    color:#FFF;
+    width: 500px;
+    height: 76px;
+    margin-bottom: 68px;
+}
+
+.blog_button {
+    height: 91px;
+    width: 263px;
+    border-radius: 27px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.destination {
+    display: flex;
+    margin-top: 108px;
+    padding-left: 100px;
+    margin-bottom: 200px;
+}
+.destination_text_contant {
+    width: 37%;
+}
+.destination_text_contant p{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+
+}
+.destination_text_contant .destination_text_contant_description {
+    margin-top: 15px;
+    color: #0F1F1C;
+    font-weight: 500;
+    font-size: 25px;
+    opacity: 0.5;
+    margin-bottom: 60px;
+    display: block;
+    width: 456px;
+    line-height: 37.5px;
+}   
+.destination_photos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 63%;
+    float: left;
+    position: relative;
+}
+.round_button {
+    width: 68px;
+    height: 68px;
+    border-radius: 34px;
+    position: absolute;
+    left: -34px;
+}
+.responses {
+    margin-left: 100px;
+    display: flex;
+}
+.responses_photo {
+    width: 40%;
+}
+.responses_photo img{
+    border-radius: 60px;
+}
+
+.responses_text_contante{
+    margin-left: 68px;
+   width: 60%;
+}
+.responses_text_contante h3 {
+    width: 565px;
+}
+.ico {
+    background-color: #FFAA99;
+    width: 134px;
+    height: 134px;
+    border-radius: 71.5px;
+    margin-top: 35px;
+    display: inline-block;
+}
+.responses_container{
+    display: flex;
+}
+.response_login{
+    margin-left: 43px;
+    margin-top: 53px;
+}
+.login {
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 49.5px;
+}
+.from {
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: 37.5px;
+}
+.response {
+    margin-top: 60px;
+    display: block;
+    width: 491px;
+    opacity: 0.5;
+    font-size: 22px;
+    font-weight: 500;
+}
+.stars {
+    margin-top: 30px;
+}
+.stars img {
+    margin-right: 8px;
+}
+.joinUs {
+    margin: 233px 100px 0 100px;
+    background-color: #FFFFFF;
+    border-radius: 60px;
+}
+.joinUs h3{
+    text-align: center;
+    width: 519px;
+    margin: 116px auto 30px auto;
+}
+.joinUs span {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    opacity: 0.5;
+    text-align: center;
+    display: block;
+    margin-bottom: 60px;
+}
+.joinUs button {
+    display: block;
+    margin: 0 auto 115px auto;
+}
+.subscribe{
+    height: 609px;
+}
+.subscribe h2{
+    margin: 135px auto 60px auto;
+    display: block;
+    width: 494px;
+    text-align: center;
+}
+#subscribe {
+    margin: 0 auto 119px auto;
+    background-color: #FFFFFF;
+    width: 800px;
+    height: 129px;
+    border-radius: 35px;
+}
+#email {
+    width: 439px;
+    height: 36px;
+    border: none;
+    margin-left: 46px;
+    margin-top: 47px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0F1F1C;
+    opacity: 0.5;
+}
+#btn {
+    background-color: #FF584E;
+    width: 300px;
+    height: 105px;
+    border-radius: 35px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer{
+    height: 87px;
+    min-width: 1440px;
+    flex: auto;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer .logo a{
+    color: #FF7C4E;
+}
+.footer .navigation a, .footer .button{
+    color: #0F1F1C;
+    opacity: 0.5;
+}
+.footer li .button:hover {
+    background-color: #FF584E;
+    color: #FFF;
+    opacity: 1;
+}
